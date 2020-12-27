@@ -1,0 +1,96 @@
+.wrapper{
+    max-width: 1600px;
+    margin: 0px auto;
+    background-color: #f2f2f2;
+    font-family: Calibri;
+}
+
+.mainContent{
+    background-color: #000;
+    background-image: url(../images/background-water-voda-fon1.jpg);
+    background-size: cover;
+}
+
+.company{
+    font-size: 48px;
+}
+
+.menu > li{
+    background-color: #48a1d9;
+    font-size: 36px;
+}
+
+.menu a{
+    display: block;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.ddMenu{
+    font-size: 30px;
+}
+
+.banner{
+    background-image: url(../images/Well-water1.jpg);
+    background-size: cover;
+}
+
+.banner > .header{
+    font-size: 72px;
+    font-family: Calibri;
+    text-align: center;
+}
+
+h3{
+    border-bottom: 5px solid #f2f2f2;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.bannerText1, .bannerText2{
+    font-size: 24px;
+}
+
+.bannerText1 > p{
+    margin-bottom: 1em;
+}
+
+.bannerText2 > p{
+    margin-bottom: 1em;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.raw1-2 > p{
+    font-size: 30px;
+}
+
+.raw2-2 > p{
+    font-size: 30px;
+}
+
+.row > .contactsName{
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 24px;
+}
+
+.row > .contactsValue{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.row > a{
+    font-size: 36px;
+    margin-right: 172px;
+    margin-left: 172px;
+    padding: 15px;
+    text-decoration: none;
+    color: #000 !important;
+    background-color: #96c6d9;
+    border-radius: 15px;
+}

@@ -1,0 +1,440 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    padding: 25px;
+    display: flex;
+}
+
+.col10{
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+.col90{
+    width: 90%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    padding-left: 25px;
+}
+
+.company{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.menu{
+    display: flex;
+    margin-top: 25px;
+    margin-left: auto;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menu a{
+    padding: 25px;
+}
+
+.ddMenu{
+    display: none;
+    position: absolute;
+    background: #f2f2f2;
+    list-style: none;
+}
+
+.menu>li:hover .ddMenu{
+    display: block;
+}
+
+.mMenuBtn{    
+    display: none;
+}
+
+.mainContent{
+    padding: 50px 25px;
+}
+
+.banner{
+    padding: 35px 35px;
+}
+
+.banner > .header{
+    width: 40%;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    margin-right: auto;
+    background-color: #96c6d9;
+}
+
+.raw{
+    display: flex;
+}
+
+.col0-30{
+    width: 30%;
+    padding: 25px;
+    margin: 70px;
+    background-color: #96c6d9
+}
+
+.col60-90{
+    width: 30%;
+    padding: 25px;
+    margin: 70px;
+    margin-left: auto;
+    background-color: #96c6d9;
+}
+
+.sections{
+    margin: 0px 95px;
+    margin-top: 50px;
+}
+
+.raw1-2{
+    width: 50%;
+    padding: 25px;
+    margin-bottom: 50px;
+    background-color: #efdac6;
+}
+
+.raw2-2{
+    width: 50%;
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: auto;
+    background-color: #efdac6;
+}
+
+footer{
+    padding-bottom: 75px;
+}
+
+.row{
+    margin-top: 50px;
+    display: flex;
+}
+
+.row > .contactsName{
+    margin-left: auto;
+}
+
+@media screen and (min-width: 1200px) and (max-width : 1350px){
+    .menu{
+        justify-content: start;
+    }
+    
+    .content{
+        padding-left: 0px;
+    }
+
+    .col10{
+        display: none;
+    }
+
+    .col90{
+        width: 100%;
+    }
+
+    .col0-30{
+        margin-left: 0px;
+        width: 50%;
+    }
+
+    .col60-90{
+        margin-left: 0px;
+        width: 50%;
+    }
+
+    .sections{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width : 1200px){
+    .col10{
+        display: none;
+    }
+
+    header{
+        padding: 0px;
+    }
+
+    .content{
+        padding: 0px;
+    }
+
+    .company{
+        display: none;
+    }
+
+    .mMenuWR{
+        display: inline-block;
+    }
+
+    .mMenuWR:hover .menu{
+        display: block;
+        position: absolute;
+        background: #000;
+        margin: 0px;
+    }
+
+    .ddMenu{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        position: static;
+    }
+
+    .mMenuBtn{
+        color:#000;
+        font-size: 36px;
+        width: 50px;
+        padding: 20px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .raw1-2{
+        width: auto;
+    }
+
+    .raw2-2{
+        width: auto;
+    }
+
+    .sections{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .col0-30{
+        margin-left: 0px;
+        width: 50%;
+    }
+
+    .col60-90{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 50%;
+
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width : 950px){
+    .col10{
+        display: none;
+    }
+
+    header{
+        padding: 0px;
+    }
+
+    .content{
+        padding: 0px;
+    }
+
+    .company{
+        display: none;
+    }
+
+    .mMenuWR{
+        display: inline-block;
+    }
+
+    .mMenuWR:hover .menu{
+        display: block;
+        position: absolute;
+        background: #000;
+        margin: 0px;
+    }
+
+    .ddMenu{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        position: static;
+    }
+
+    .mMenuBtn{
+        color:#000;
+        font-size: 36px;
+        width: 50px;
+        padding: 20px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .raw1-2{
+        width: auto;
+    }
+
+    .raw2-2{
+        width: auto;
+    }
+
+    .sections{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .col60-90{
+        display: none;
+    }
+
+    .col0-30{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .banner > .header{
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .row{
+        margin-top: 0px;
+    }
+
+    footer{
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+    .row > a{
+        display: none;
+    }
+
+    .row > .contactsName{
+        margin-left: 0px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width : 690px){
+    .col10{
+        display: none;
+    }
+
+    header{
+        padding: 0px;
+    }
+
+    .content{
+        padding: 0px;
+    }
+
+    .company{
+        display: none;
+    }
+
+    .mMenuWR{
+        display: inline-block;
+    }
+
+    .mMenuWR:hover .menu{
+        display: block;
+        position: absolute;
+        background: #000;
+        margin: 0px;
+    }
+
+    .ddMenu{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        position: static;
+    }
+
+    .mMenuBtn{
+        color:#000;
+        font-size: 36px;
+        width: 50px;
+        padding: 20px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .raw1-2{
+        margin-bottom: 25px;
+        width: auto;
+    }
+
+    .raw2-2{
+        margin-top: 25px;
+        width: auto;
+    }
+
+    .sections{
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .col60-90{
+        display: none;
+    }
+
+    .col0-30{
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .banner > .header{
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .row{
+        margin-top: 0px;
+    }
+
+    footer{
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+    .row > a{
+        display: none;
+    }
+
+    .row > .contactsName{
+        margin-left: 0px;
+        padding: 15px !important;
+    }
+
+    .mainContent{
+        padding: 0px;
+        padding-bottom: 25px;
+    }
+
+    .banner{
+        padding: 0px;
+    }
+}
